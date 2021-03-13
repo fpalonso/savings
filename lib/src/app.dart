@@ -6,7 +6,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Savings',
-      home: NoteList(),
+      home: NoteList('Notes'),
     );
   }
 }
